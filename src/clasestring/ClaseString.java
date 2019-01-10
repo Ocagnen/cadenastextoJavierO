@@ -83,6 +83,11 @@ public class ClaseString {
         System.out.println("¿Contiene "+ s2 +" la subcadena "+aBuscar+"? "+s2.contains(aBuscar));
         
         // Probar métodos endsWith, startsWith, isEmpty
+        String end = "com";
+        System.out.println("Termina con com?:"+end.endsWith(end));
+        System.out.println("Empieza con com?: "+end.startsWith(end));
+        System.out.println("Está vacio ?"+end.isEmpty());
+        
         
         // Obtener un array de char de la cadena
         // Declaración de una variable array de tipo char
